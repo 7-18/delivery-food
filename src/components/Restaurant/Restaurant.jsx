@@ -36,7 +36,7 @@ export const Restaurant = () => {
               onClick={back}
             />
             <LogoRestaurant style={{ textAlign: "center" }}>
-              <img src={logo} alt={name} />
+              <img src={logo} alt={name} loading="lazy"/>
             </LogoRestaurant>
             <CardRestaurant
               restaurants={{
@@ -56,7 +56,7 @@ export const Restaurant = () => {
                   <React.Fragment key={plate.id}>
                     <Link to={`/restaurant/${id}/plate/${name}`}>
                       <PlateCard>
-                        <img src={image} alt={name} />
+                        <img src={image} alt={name} loading="lazy"/>
                         <h4 style={{ margin: "5px 0 0" }}>{name}</h4>
                         <span
                           style={{

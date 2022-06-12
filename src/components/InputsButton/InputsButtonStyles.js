@@ -51,20 +51,19 @@ export const GlobalButtonName = styled.span`
     }
   }
 
-  & > span.css-1ycxvqq-MuiSwitch-root {
+  & > span {
     float: right;
   }
 
   &
     > span
-    > span.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    > span.Mui-checked {
     color: var(--yellow);
   }
 
   &
     > span
-    > span.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
-    + .MuiSwitch-track {
+    > span.Mui-checked.MuiSwitch-track {
     background-color: var(--dark);
   }
 `;

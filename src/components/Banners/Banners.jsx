@@ -8,7 +8,7 @@ export const Banners = () => {
         {banners.map((banner) => {
           return (
             <BannersItem key={banner.id}>
-              <img src={banner.img} alt={banner.title} />
+              <img src={banner.img} alt={banner.title} loading="lazy"/>
             </BannersItem>
           );
         })}

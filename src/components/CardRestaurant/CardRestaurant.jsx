@@ -16,7 +16,7 @@ export default function CardRestaurant({restaurants, id}) {
     <Link to={`/restaurant/${id}`}>
       <CardRestaurantStyled>
         <div className="col-1">
-          <img src={restaurants?.local} alt={restaurants?.name} />
+          <img src={restaurants?.local} alt={restaurants?.name} loading="lazy"/>
         </div>
         <div className="col-2">
           <h3>{restaurants?.name}</h3>
