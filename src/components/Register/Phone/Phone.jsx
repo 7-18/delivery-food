@@ -33,7 +33,7 @@ export const Phone = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const user = users.find((user) => user.phone == form.phone);
-    if (form.phone.length <= 12) {
+    if (form.phone.length <= 12 && form.phone.length > 4) {
       if (!user) {
         localStorage.setItem("user", JSON.stringify({ phone: form.phone }));
         navigate("/sign-in/verification");
