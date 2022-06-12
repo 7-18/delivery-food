@@ -51,7 +51,7 @@ export const GlobalButtonName = styled.span`
     }
   }
 
-  & > span > span > input {
+  & > span > span.MuiSwitch-root {
     float: right;
   }
 
@@ -63,9 +63,7 @@ export const GlobalButtonName = styled.span`
 
   &
     > span
-    > span.MuiSwitch-track,
-    & > span > span.Mui-checked + .MuiSwitch-track {
+    > span.MuiSwitch-track {
     background-color: var(--dark) !important;
-    float: right;
   }
 `;
