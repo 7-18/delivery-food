@@ -18,9 +18,9 @@ export const InputStyled = styled(Input)`
   font-size: 20px;
   padding: 0 10px;
 
-  &.css-1up7ebe-MuiInputBase-root-MuiInput-root:before,
-  &.css-1up7ebe-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before,
-  &.css-1up7ebe-MuiInputBase-root-MuiInput-root:after {
+  &.css-1up7ebe:before,
+  &.css-1up7ebe:hover:not(.Mui-disabled):before,
+  &.css-1up7ebe:after {
     border-color: var(--yellow);
     color: var(--gray);
   }
