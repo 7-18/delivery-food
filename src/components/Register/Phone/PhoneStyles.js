@@ -18,10 +18,10 @@ export const InputStyled = styled(Input)`
   font-size: 20px;
   padding: 0 10px;
 
-  &.css-1tcs2i1-MuiInputBase-root-MuiInput-root:before,
-  &.css-1tcs2i1-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before,
-  &.css-1tcs2i1-MuiInputBase-root-MuiInput-root:after {
-    border-color: var(--yellow);
+  &.MuiInputBase-root-MuiInput-root:before,
+  &.MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before,
+  &.MuiInputBase-root-MuiInput-root:after {
+    border-color: var(--yellow) !important;
     color: var(--gray);
   }
 
