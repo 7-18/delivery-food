@@ -41,6 +41,8 @@ export const Phone = () => {
         localStorage.setItem("user", JSON.stringify(user));
         navigate("/sign-in/verification");
       }
+    } else if (form.phone === "") {
+      message.error("Please enter a valid phone number");
     } else {
       message.error("Please enter a valid phone number");
     }
