@@ -35,7 +35,7 @@ export const GlobalButtonName = styled.span`
   margin-bottom: 0;
   align-items: center;
 
-  & > span {
+  & > span.title-edit {
     text-align: left;
     margin-left: 10px;
   }

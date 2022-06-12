@@ -6,7 +6,7 @@ export const InputsButton = ({ title, icon, lastIcon }) => {
       <GlobalButton>
         <GlobalButtonName>
           {icon}
-          <span>{title}</span>
+          <span className="title-edit">{title}</span>
           {lastIcon}
         </GlobalButtonName>
       </GlobalButton>
