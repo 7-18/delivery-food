@@ -51,7 +51,7 @@ export const GlobalButtonName = styled.span`
     }
   }
 
-  & > span {
+  & > span > span {
     float: right;
   }
 
