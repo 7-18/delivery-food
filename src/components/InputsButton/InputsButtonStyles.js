@@ -66,5 +66,6 @@ export const GlobalButtonName = styled.span`
     > span.MuiSwitch-track,
     & > span > span.Mui-checked + .MuiSwitch-track {
     background-color: var(--dark) !important;
+    float: right;
   }
 `;
