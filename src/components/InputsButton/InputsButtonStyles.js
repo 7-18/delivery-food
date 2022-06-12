@@ -51,7 +51,7 @@ export const GlobalButtonName = styled.span`
     }
   }
 
-  & > span > span.MuiSwitch-root {
+  & > span.MuiSwitch-root {
     float: right;
   }
 
